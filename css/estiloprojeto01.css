@@ -1,0 +1,148 @@
+body{
+    font-family: arial, sans-serif;
+    background: #ccc;
+    margin: 0;
+}
+
+.hero01{
+
+    background-image: url(..//bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.hero01 nav ul{
+    text-align: right;
+    margin: 20px 10px 0 0; 
+    
+    
+}
+
+.hero01 nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+    border: 1px solid white;
+}
+
+
+
+.hero01 nav a{
+   background: rgba(0,0,0,0.3);    
+   display: block;
+   padding: 15px;
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 12px;
+   letter-spacing: 2px;    
+    
+    
+} 
+
+
+.hero01 nav a:hover{
+    background: rgba(0,0,0,0.6);
+    
+    
+    
+}
+
+.herocontent{
+  text-align: center; 
+  color: white;
+  margin-top: 200px;    
+
+}
+
+
+
+.hero01 h1{
+    text-shadow: 1px 3px 3px #333;     
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+.hero01 p{
+    background-color: rgba(0,0,0, .7);
+    padding: 10px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+  
+}
+
+
+main{
+  margin: auto;
+  width: 80%;    
+    
+}
+
+.contentsection{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    overflow: auto;
+   
+
+}
+
+.card{
+    width: 32%;
+    float: left;
+    
+    
+}
+
+.card-1, .card-2{
+    margin-right: 2%;
+    
+    
+}
+
+
+
+.card img{
+    width: 100%;
+    display: block;
+    
+}
+
+
+
+
+.card p{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+
+    
+}
+
+
+
+.contentsection h1{
+    background-color: #d9d9d9;
+    padding: 10px;
+    border-bottom: solid 3px #ccc;; 
+    margin-top: 1px;
+    
+    
+}
+
+
+.rodape{
+    height: 80px;
+    background-color: #3d3d3d;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 80px;
+}
+    
